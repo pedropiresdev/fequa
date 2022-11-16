@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 140
+select = C,E,F,W,B,B9
+ignore = E203, E501s, W503, W291, E731, F405, W605, E501, F403, E123, E124
+exclude = __init__.py, env, static, README.md, tox.ini, Makefile, migrations, extras, media, requirements, setup.cfg, templates, tests, config.yaml
